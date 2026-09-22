@@ -1,0 +1,21 @@
+{
+  "buildCommand": "echo 'No build needed'",
+  "outputDirectory": ".",
+  "functions": {
+    "api/**/*.js": {
+      "memory": 128,
+      "maxDuration": 60
+    }
+  },
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    }
+  ]
+}

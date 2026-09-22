@@ -1,0 +1,13 @@
+{
+  "name": "crypode-debt-payoff",
+  "version": "1.0.0",
+  "description": "Islamic-compliant debt payoff planner for Gulf professionals",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel"
+  },
+  "keywords": ["debt", "payoff", "planner", "islamic", "finance", "gulf"],
+  "author": "Crypode",
+  "license": "MIT"
+}
